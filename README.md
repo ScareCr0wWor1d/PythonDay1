@@ -1,2 +1,2 @@
-# PythonDay1
+# PythonDay1 - Band Generator
 Course
