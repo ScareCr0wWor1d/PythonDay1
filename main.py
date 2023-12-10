@@ -1,8 +1,4 @@
-# This is a sample Python script.
-
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+# Premier projet Day1 Python
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -13,6 +9,8 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-# Just for commit
+print("Bienvenue au générateur de nom de groupe.")
+ville = input("Quel est le nom de la ville où vous avez grandit? ")
+pet = input("Quel est le nom de votre animal de compagnie? ")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("Votre nom de groupe devrait être: " + ville + " " + pet)
